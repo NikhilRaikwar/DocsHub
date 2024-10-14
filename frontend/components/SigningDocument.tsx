@@ -3,7 +3,7 @@ import { useWallet } from "@aptos-labs/wallet-adapter-react";
 import { aptosClient } from "@/utils/aptosClient";
 import { InputTransactionData } from "@aptos-labs/wallet-adapter-react";
 import axios from 'axios';
-import { Modal, Button, Upload, message, Input, Spin } from 'antd';
+import { Button, message, Spin } from 'antd';  // Corrected import
 import { useNavigate, useParams } from 'react-router-dom';
 
 interface Signature {
